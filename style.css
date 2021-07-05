@@ -1,11 +1,19 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 section{
     display: flex;
 }
+.background-set{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
 h1{
     font-size: 50px;
+}
+.pragraph{
+    color: rgb(78, 76, 76);
 }
 .orange-color{
     color: orange;
@@ -22,7 +30,8 @@ h1{
     color: white;
     background-color: rgba(255, 68, 0, 0.822);
     padding: 10px 40px;
-    background-image: linear-gradient(orange,tomato);
+    background-image: linear-gradient(lightsalmon,tomato);
     font-weight: 700;
     border-radius: 5px;
 }
+
